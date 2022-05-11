@@ -8,11 +8,11 @@ You must have Node.js installed. Node can be installed from [nodejs.org](https:/
 Once you have installed Node, follow these steps to get started with this project:
 1. Clone or download this repository, and `cd` into the newly created directory:
     ```
-    $ git clone https://github.com/suvanl/delet3-API.git
+    $ git clone https://github.com/suvanl/delet3-api.git
     ```
 
     ```
-    $ cd delet3-API
+    $ cd delet3-api
     ```
 
 2. Install all required dependencies:
