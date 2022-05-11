@@ -7,7 +7,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node --experimental-specifier-resolution=node index.js",
-    "dev": "nodemon --experimental-specifier-resolution=node"
+    "dev": "nodemon --experimental-specifier-resolution=node",
+    "prod": "pm2 start delet3-api",
+    "prod-create": "pm2 start --node-args=\"--experimental-specifier-resolution=node\" index.js --name \"delet3-api\" -- --color && pm2 monit",
+    "prod-monit": "pm2 start delet3-api && pm2 monit"
   },
   "author": "suvanl",
   "license": "MIT",
