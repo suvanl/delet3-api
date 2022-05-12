@@ -1,6 +1,6 @@
 # delet3 API
 
-This is the REST API used by [delet<sup>3</sup>](https://github.com/suvanl/delet3) for interacting with its MongoDB database.
+This REST API is used by [delet<sup>3</sup>](https://github.com/suvanl/delet3) for performing CRUD operations on its MongoDB database.
 
 ## Installation and Initial Setup
 You must have Node.js installed. Node can be installed from [nodejs.org](https://nodejs.org/). Using the latest LTS version is recommended.
