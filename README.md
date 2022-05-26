@@ -35,7 +35,7 @@ To start the REST API server:
     $ npm start
     ```
 
-- Without with watch/reload from nodemon:
+- With watch/reload from nodemon:
     ```
     $ npm run dev
     ```
